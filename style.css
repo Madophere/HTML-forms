@@ -1,0 +1,14 @@
+.class{
+    background:linear-gradient(to left, blue, yellow);
+    text-align:center;
+  }
+  .form{
+   background:linear-gradient(to left, blue, yellow); 
+    text-align:center;
+  }
+  #Table{
+    text-align:justify;
+  }
+  #myTable{
+    border-style:solid double;
+  }

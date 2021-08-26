@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="class">
+    <h3>HTML forms
+  </div><div class="form">
+    <table style="width:100%" id="Table">
+      <tr>
+        <th>First Name</th>
+        <td> <input type="text" placeholder="Enter first name " class="fname"></td>
+      </tr>
+      <tr>
+        <th>Last Name</th>
+        <td><input type="text" placeholder="Enter last name " class="lname"></td>
+      </tr>
+      <tr>
+        <th>Address</th>
+        <td>
+          <input type="textarea" placeholder="Enter address " class="address">
+        </td>
+      </tr>
+      <tr>
+        <th>Pin Code</th>
+        <td>
+          <input type="number" placeholder="Enter valid pincode " class="pincode">
+        </td>
+      </tr>
+      <tr>
+        <th>Gender</th>
+        <td><input type="text" placeholder="Male/Female " class="gender">
+  
+        </td>
+      </tr>
+      <tr>
+        <th>Food</th>
+        <td>
+          <select name="food" id="food" >
+            <option value="Biriyani" >Biriyani</option>
+            <option value="Fried Rice">Fried Rice</option>
+            <option value="Veg Pulav" selected>Veg Pulav</option>
+            <option value="Chicken 65">Chicken 65</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <th>State</th>
+        <td>
+          <input type="text" placeholder="Enter state" class="state">
+        </td>
+      </tr>
+      <tr>
+        <th>Country</th>
+        <td>
+          <input type="text" placeholder="Enter country" class="country">
+        </td>
+      </tr>
+  
+    </table>
+  
+    <button class="submit" onclick="submit()">Submit</button>
+  </div>
+  <br>
+  <div >
+    <table class="table table-striped", style = "width:100%" id ="myTable">
+    <tc>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Address</th>
+      <th>Pin Code</th>
+      <th>Gender</th>
+      <th>Food</th>
+      <th>State</th>
+      <th>Country</th>
+    </tc>
+     
+      
+      </table>
+  </div>
+  <script src ="script.js"></script>
+</body>
+</html>
+  
